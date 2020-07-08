@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
 display: none;
 }
@@ -38,4 +39,46 @@ textarea { resize: none; }
 #particle-canvas {
   width: 100%;
   height: 100%;
+=======
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+display: none;
+}
+.ml11 {
+  font-weight: 600;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0em;
+  padding-right: 0em;
+  padding-bottom: 0em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 { 
+  top: 0; 
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+textarea { resize: none; }
+
+/*particle*/
+#particle-canvas {
+  width: 100%;
+  height: 100%;
+>>>>>>> b62e76b5fc89b19ead7d22a00785423932057b36
 }
